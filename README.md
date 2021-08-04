@@ -16,4 +16,4 @@ Command -->
 
 Then in MITMf folder you will find mitmf.py just run it using ./mitmf -h but before that you need to give permission with chmod +x ./mitmf.py 
 
-          Note: If any error occurs please kaliconfiga tool to build your kali linux first.
+          Note: If any error occurs please use kaliconfiga tool to build your kali linux first.
