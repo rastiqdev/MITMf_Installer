@@ -6,6 +6,8 @@ wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
 
 python get-pip.py
 
+export PATH="/home/user/.local/bin:$PATH"
+
 pip install virtualenvwrapper
 
 git submodule init && git submodule update --recursive
