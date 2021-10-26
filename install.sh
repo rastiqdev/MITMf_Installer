@@ -1,12 +1,12 @@
-wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
-
-python get-pip.py
-
 sudo apt-get install python2-dev python-setuptools libpcap0.8-dev libnetfilter-queue-dev libssl-dev libjpeg-dev libxml2-dev libxslt1-dev libcapstone-dev libffi-dev file
 
 wget https://github.com/AQRRastiq/MITMf_Installer/raw/main/libcapstone3_4.0.1%2Breally%2B3.0.5-1_amd64.deb -O libcapstone3_4.0.1+really+3.0.5-1_amd64.deb
 
 sudo dpkg -i libcapstone3_4.0.1+really+3.0.5-1_amd64.deb
+
+wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
+
+python get-pip.py
 
 pip install virtualenvwrapper
 
